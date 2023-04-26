@@ -1,6 +1,5 @@
 Resources:
- 
-  Bucket: 
-    Type: AWS::S3::Bucket
+  RadioBucket:
+    Type: "AWS::S3::Bucket"
     Properties:
-      BucketName: file-bucket
+      BucketName: "files-bucket-radio-task"
