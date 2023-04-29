@@ -8,7 +8,7 @@ sess = Session(region_name='us-west-2')
 
 s3client = sess.client('s3')
 
-files_folder_path = 'radio-task/files/'
+files_folder_path = 'files/'
 
 files_list = os.listdir(files_folder_path)
 
