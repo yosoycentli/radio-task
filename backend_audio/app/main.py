@@ -24,7 +24,7 @@ def documents_audio():
         if file.key.endswith('.wav') or file.key.endswith('.mp3') or file.key.endswith('.flac'):
             file_list.append(file.key)
     total=len(file_list)
-    total_statement = "Files: " + str(total) + " images"
+    total_statement = "Files: " + str(total) + " audios/podcast"
     ip_total_statement = "IP: " + get_ip_address()
     return f'{ip_total_statement} {total_statement}'
 
