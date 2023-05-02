@@ -15,7 +15,7 @@ def get_ip_address():
 
 
 @app.get("/")
-def audio_files():
+def video_files():
     bucket=client.Bucket(bucket_name)
     files = bucket.objects.all()
     file_list = []
